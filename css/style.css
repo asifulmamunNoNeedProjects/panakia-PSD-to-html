@@ -1,0 +1,381 @@
+/*..................../
+....................
+All Global Code Here
+....................
+/....................*/
+
+
+/* global button css */
+.btn-theme {
+    color: #fff;
+    padding: 7px 35px;
+    border-radius: 25px;
+    background: #DD4B2B;
+    border: 1px solid #fff;
+}
+.btn-theme:hover{
+    color: #DD4B2B;
+    background-color: #fff;
+    border: 1px solid #DD4B2B;
+    box-shadow: 2px 2px 8px #f4f4f4;
+}
+/* global center*/
+.mycenter{
+    display: block;
+    margin: 0px auto;
+}
+/* all animation for try this css class */
+.delay{
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -marker-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/*..................../
+....................
+All Section style here
+....................
+/....................*/
+
+
+/* head */
+.logo{
+
+}
+/* before nave bar scroll */
+@media (min-width: 768px){
+.navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    }
+}
+/* after nave bar scroll */
+@media (min-width: 768px){
+.navbar-custom.affix {
+    padding: 0px 0px 40px 0;
+    background-color: #fff;
+    }
+}
+
+/* before nave bar scroll for note device */
+@media (max-width: 990px){
+.navbar-custom {
+    background-color: transparent;
+    padding: 30px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    }
+    .logo{
+    transform: scale(0.9);
+    margin-top: -15px;
+    }
+}
+/* after nave bar scroll for note devive */
+@media (max-width: 990px){
+.navbar-custom.affix {
+    padding: 0px 0px 30px 0;
+    background-color: #fff;
+    }
+}
+/* nav style over-write nav.css */
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a{
+    border-radius: 25px;
+    padding: 10px 25px;
+    display: block;
+    font-size: 23px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+    background-color: #DD4B2B;
+    border-radius: 25px;
+    padding: 10px 25px;
+    display: block;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border: 1px solid #541b0f;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #DD4B2B;
+    border-radius: 25px;
+    padding: 10px 25px;
+    display: block;
+    
+}
+/* header section */
+#product {
+    background: url(../images/head-bg.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: scroll;
+    margin-top: 105px;
+    padding: 100px 0px;
+}
+/* title */
+.title-product>h1{
+    color: #fff;
+    font-weight: 500;
+    padding: 270px 0px 0px 0px;
+}
+.title-product>h4{
+    color: #fff;
+    font-weight: 200;
+}
+/* food */
+.food {
+    padding: 35px 0px;
+}
+.food h3{
+    color: #fff;
+    font-weight: 400;
+}
+.food p {
+    color: #fff;
+    width: 250px;
+    margin: 0 auto;
+    line-height: 18px;
+    font-weight: 300;
+}
+/* news section */
+#news {
+    padding: 50px 0px;
+}
+.nesh{
+    overflow: hidden;
+}
+#news h2 {
+    color: #444;
+    padding: 30px 0px;
+    font-weight: 700;
+}
+#news img{
+    margin: 25px 0px;
+}
+#news img:hover{
+    transform: scale(1.08,1.08);
+}
+#news p {
+    line-height: 28px;
+    width: 80%;
+    margin: 0 auto;
+    color: #444;
+}
+#news button{
+    margin: 25px 0px;
+}
+/* Newslatter section */
+#newslatter {
+    background: url(../images/food-bg.png) no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    overflow: hidden;
+}
+.emlin {
+    border: 1px solid #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    overflow: hidden;
+    width: 480px;
+    position: relative;
+}
+.elmin-1{
+    background-color: transparent;
+    border: transparent;
+    padding: 8px 40px;
+    border-radius: 25px;
+    float: left;
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+}
+.emlin input[type=submit] {
+    padding: 8px 40px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    background-color: #fff;
+    float: right;
+}
+.emlin input[type=submit]:hover {
+    background-color: #DD4B2B;
+    color: #fff;
+}
+.newslattercon h2 {
+    color: #fff;
+    font-weight: 700;
+    padding: 8px 0px;
+}
+.newslattercon p {
+    color: #fff;
+    width: 50%;
+    text-shadow: 0px -4px 3px #000;
+    display: block;
+    margin: 0px auto;
+    padding: 15px 0px;
+}
+/* service section */
+#service {
+    padding: 50px 0px;
+}
+.servicecon {
+    padding: 185px 50px 0px 0px;
+}
+.servicecon h2{
+    color: #333;
+}
+.servicecon p{
+    color: #444;
+    line-height: 30px;
+}
+.serviceimg{
+    overflow: hidden;
+}
+.serviceimg img {
+    width: 80%;
+    height: auto;
+    padding: 60px 0px 0px 0px;
+}
+.serviceimg img:hover{
+   transform: scale(1.08,1.08);
+}
+.scon2 {
+    padding-top: 70px;
+}
+.bbt{
+    margin-top: 15px;
+}
+/* list section */
+#list {
+    background-color: #D75D0E;
+    padding: 50px 0px;
+}
+#list ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 35px;
+}
+footer{
+    padding: 50px 0px;
+    background: url(../images/footer-bg.png) no-repeat;
+    background-size: cover;
+}
+footer p {
+    color: #fff;
+    font-size: 16px;
+    width: 70%;
+    line-height: 28px;
+    padding: 50px 0px 50px 0px;
+    margin: 0 auto;
+}
+.ft {
+    background-color: rgba(70,70,80,0.3333);
+    display: block;
+    margin: 0px auto;
+    border-radius: 5px;
+}
+
+/* meadia quwri on phone tab notepad  */
+@media screen and (max-width: 990px){
+    .logo{
+
+        }
+    .navbar-default{
+        padding-bottom: 0px;
+    }
+    .title-product>h1 {
+    color: #fff;
+    font-weight: 300;
+    padding: 0px;
+    font-size: 25px;
+    }
+    #product {
+    margin-top: 115px;
+    padding: 15px 0px;
+    }
+    #news{
+        padding: 0;
+    }
+    #news img {
+    display: block;
+    margin: 25px auto;
+    }
+    .emlin {
+    border: 1px solid #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    }
+    .emlin input[type=submit]:hover {
+    width: 100%;
+    float: none;
+    }
+    .emlin input[type=submit] {
+    width: 100%;
+    float: none;
+    }
+    .servicecon{
+        padding: 0;
+    }
+    .bbt {
+    display: block;
+    margin: 15px auto;
+    }
+    .serviceimg img{
+        display: block;
+        margin: 0 auto;
+    }
+    .servicecon h2{
+        text-align: center;
+    }
+    .servicecon p{
+        text-align: center;
+    }
+    #list{
+        text-align: center;
+    }
+/* media query stop */
+}
+/* nav media qury over-write from bootstrap */
+@media (min-width: 768px){
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    }
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+        margin-right: -1px;
+        margin-left: -1px;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px){
+    .navbar-right{
+        width: 65%;
+        overflow: hidden;
+    }
+}
+
+/* before nave bar scroll */
+@media (min-width: 768px) and (max-width: 990px){
+.navbar-custom {
+    background-color: transparent;
+    padding: 35px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    }
+}
+/* after nave bar scroll */
+@media (min-width: 768px) and (max-width: 990px){
+.navbar-custom.affix {
+    padding: 0px 0px 35px 0;
+    background-color: #fff;
+    }
+}
